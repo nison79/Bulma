@@ -10,7 +10,7 @@
         <!--logo-->
         <div class="navbar-brand">
             <a class="navbar-item">
-                <img class = "py-7 px-1" src="assets/baseline_free_breakfast_black_18dp.png" alt="logo" style="max-height: 50px">
+                <img class = "py-7px-1 " src="assets/baseline_free_breakfast_black_18dp.png" alt="logo" style="max-height: 50px">
             </a>
             <a  class="navbar-burger" id = "burger">
                 <span></span>
@@ -27,6 +27,82 @@
         </div>
     </nav>
 
-    <scrip src="index.js"></script>
+    <!--breadcrumbs-->
+
+    <div class="section pt-4 pb-0">
+        <nav class="breadcrumb has-arrow-separator">
+            <ul class="container is-size-6">
+                <li><a class = "has-text-grey">Coffee Maker</a></li>
+                <li><a class = "has-text-grey">Coffee Lover</a></li>
+                <li class="is-active"><a>Coffee Star</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--product info-->
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
+                    <h1 class="is-size-5-mobile is-size-1-desktop title">LOVE</h1>
+                    <h2 class="is-size-6-mobile is-size-7-tablet is-size-2-desktop subtitle">EVERYONE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Odio dolor quam perferendis reiciendis saepe, 
+                        ad tempore sequi unde voluptates nulla!</p>
+                </div>
+                <div class="column is-6-tablet is-5-desktop has-text-centered">
+                    <img src="assets/nick-fewings-ka7REB1AJl4-unsplash.jpg" alt="love" class="px-6">
+                </div>
+                <div class="column is-12-tablet is-4-desktop">
+                    <div class="is-size-4 md-4">$50</div>
+                    <p class="mb-4 is-size-7-tablet">Lorem, ipsum dolor sit amet consectetur adipisicing 
+                        elit. Sequi, corrupti.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-8 is-variable">
+                <div class="column is-7-tablet">
+                <!--Tabs-->
+                    <div class="tabs is-boxed">
+                        <ul>
+                            <li class="is-active" data-target="product-details">
+                                <a>Product Details</a>
+                            </li>
+                            <li data-target="delivery-info">
+                                <a>Delivery Info</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="px-2" id = "tab-content">
+                        <div id="product-details">
+                            <h3 class="is-size-5 title">Product details</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Fugiat magni nesciunt 
+                                autem nemo quaerat recusandae 
+                                explicabo iure vero, corporis ullam.
+                            </p>
+                        </div>
+                        <div id="delivery-info" class="is-hidden">
+                            <h3 class="is-size-5 title">Delivery info</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Fugiat magni nesciunt 
+                                autem nemo quaerat recusandae 
+                                explicabo iure vero, corporis ullam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <script src="index.js"></script>
 </body>
 </html>
