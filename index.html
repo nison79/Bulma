@@ -59,6 +59,21 @@
                     <p class="mb-4 is-size-7-tablet">Lorem, ipsum dolor sit amet consectetur adipisicing 
                         elit. Sequi, corrupti.
                     </p>
+                    <form>
+                        <div class="field">
+                            <div class="control mb-6">
+                                <div class="select is-dark">
+                                    <select>
+                                        <option>Small(5gr)</option>
+                                        <option>Medium(10gr)</option>
+                                        <option>Large(25gr)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="button is-primary is-medium is-rounded ">Add to Love</button>
+                    </form>
+                    
                 </div>
             </div>
         </div>
@@ -68,7 +83,7 @@
     <section class="section">
         <div class="container">
             <div class="columns is-8 is-variable">
-                <div class="column is-7-tablet">
+                <div class="column 6-tablet">
                 <!--Tabs-->
                     <div class="tabs is-boxed">
                         <ul>
@@ -98,10 +113,136 @@
                             </p>
                         </div>
                     </div>
+                    
+                </div>
+                <div class="column">
+                    <!--messagebox-->
+                    <div class="message is-danger">
+                        <div class="message-header">
+                            <p>Earn love </p>   
+                        </div>
+                        <div class="message-box py-2 px-2">
+                            <p>Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Cum est vitae 
+                                amet neque ex 
+                                voluptatum deserunt? 
+                                Neque culpa quasi molestias.amet neque ex 
+                                voluptatum deserunt? 
+                                Neque culpa quasi molestias.amet neque ex 
+                                voluptatum deserunt? 
+                                Neque culpa quasi molestias.
+                                
+                            </p>
+                            <div class="has-text-centered">
+                                <button id="signup" class="button is-medium mt-6 mb-4 is-primary">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section> 
+
+    <!--Cards-->
+    <section class="section is-hidden-mobile">
+        <div class="container">
+            <h3 class="title has-text-centered is-size-4">
+                Relationships
+            </h3>
+            <div class="columns mt-5 is-8 is-variable is-centered">
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="assets/steve-halama-YRgPxwbvY0E-unsplash.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p>$2</p>
+                            <p class="title is-size-5" >only love to us</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class = "has-text-grey">Light</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="assets/2.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p>$2</p>
+                            <p class="title is-size-5" >the smell to us</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class = "has-text-grey">Love</a>
+                            </p>
+                        </footer>
+                    </div> 
+                </div>
+                <div class="column is-4-tablet is-3-desktop">
+                    <div class="card">
+                        <div class="card-image has-text-centered px-6">
+                            <img src="assets/2.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p>$2</p>
+                            <p class="title is-size-5" >the smell to us</p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <a class = "has-text-grey">Love</a>
+                            </p>
+                        </footer>
+                    </div>
+                </div>       
+            </div>
+        </div>
+    </section>
+
+    <!--modal-->
+
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content has-background-white py-5 px-5" >
+                <h3 class="title mb-6">Join the love</h3>
+                <form>
+                    <div class="field">
+                        <label  class="label">Name</label>
+                        <div class="control">
+                            <input type="text" class="input" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label  class="label">Email</label>
+                        <div class="control">
+                            <input type="text" class="input" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                I agree to the <a href="" >terms & conditions</a>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mt-6 has-text-centered">
+                        <button class="button is-warning">Sign Up</button>
+                    </div>
+                </form>
+        </div>     
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>Copyright 2020 Love </p>
+        </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>
