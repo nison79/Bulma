@@ -3,14 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Makers </title>
+    <link rel=stylesheet href="main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 </head>
 <body>
-    <nav class="navbar has-shadow is-white">
+    <nav class="navbar has-shadow is-white navbar is-fixed-top" id="nav-ani">
         <!--logo-->
         <div class="navbar-brand">
             <a class="navbar-item">
-                <img class = "py-7px-1 " src="assets/baseline_free_breakfast_black_18dp.png" alt="logo" style="max-height: 50px">
+                <img  src="assets/baseline_free_breakfast_black_18dp.png" alt="logo" >
             </a>
             <a  class="navbar-burger" id = "burger">
                 <span></span>
@@ -29,7 +30,7 @@
 
     <!--breadcrumbs-->
 
-    <div class="section pt-4 pb-0">
+    <div class="section pt-4 pb-0" id="bread-ani">
         <nav class="breadcrumb has-arrow-separator">
             <ul class="container is-size-6">
                 <li><a class = "has-text-grey">Coffee Maker</a></li>
@@ -44,7 +45,7 @@
     <section class="section">
         <div class="container">
             <div class="columns is-vcentered is-multiline">
-                <div class="column is-6-tablet is-3-desktop">
+                <div class="column is-6-tablet is-3-desktop" id="first-product-ani">
                     <h1 class="is-size-5-mobile is-size-1-desktop title">LOVE</h1>
                     <h2 class="is-size-6-mobile is-size-7-tablet is-size-2-desktop subtitle">EVERYONE</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing
@@ -52,7 +53,7 @@
                         ad tempore sequi unde voluptates nulla!</p>
                 </div>
                 <div class="column is-6-tablet is-5-desktop has-text-centered">
-                    <img src="assets/nick-fewings-ka7REB1AJl4-unsplash.jpg" alt="love" class="px-6">
+                    <img src="assets/nick-fewings-ka7REB1AJl4-unsplash.jpg" alt="love" id="img1">
                 </div>
                 <div class="column is-12-tablet is-4-desktop">
                     <div class="is-size-4 md-4">$50</div>
@@ -244,6 +245,12 @@
         </div>
     </footer>
 
+
+
+    <!--scripts-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

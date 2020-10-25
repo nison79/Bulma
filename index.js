@@ -42,3 +42,11 @@ signupButton.addEventListener('click', () =>{
 modalBg.addEventListener('click' , () =>{
     modal.classList.remove('is-active');
 });
+
+
+
+//GSAP
+gsap.from("#nav-ani", {opacity: 0, y: 100, duration: 0.8});
+gsap.from("#bread-ani", {opacity: 0, y: 100, x:-200, duration: 1.5});
+gsap.from("#first-product-ani", {opacity: 0, y: 100, x:-500, duration: 0.8,rotation:360});
+
